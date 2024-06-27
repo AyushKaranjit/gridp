@@ -1,6 +1,30 @@
+body{
+	margin: 10px;
+	padding: 10px;
+	font-family:"Courier new",monospace;
+	/*background-color:skyblue;
+	color:white;*/
+}
+
 header{
 	text-align:center;
 	font-family:"Courier new",monospace;
-	font size:30px;
-	color:skyblue;
+	font-size:30px;
+}
+
+.container {
+	display: inline-grid;
+	grid-template: 40px 40px 40px 40px 40px / 40px 40px 40px 40px 40px;
+	background-color: lightblue;
+}
+
+.room {
+	border:1px solid;
+	font-size:50%;
+	text-align:center;
+}
+
+#living-room {
+	grid-column-start:1;
+	grid-column-end:6;
 }
